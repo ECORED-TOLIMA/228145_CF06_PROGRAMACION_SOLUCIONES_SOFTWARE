@@ -16,6 +16,11 @@
         p.mb-0 Adicionalmente, los entornos de desarrollo permiten escribir y organizar código mediante herramientas como editores o IDEs, junto con la instalación y configuración necesarias y la creación de proyectos; en JavaScript, la sintaxis define el uso de tipos de datos, operadores, expresiones, funciones y comentarios, así como estructuras de selección (if, switch), repetición (for, while) y salto (break, continue, return).
     p.mb-4(data-aos="flip-up") Finalmente, las estructuras de datos y algoritmos permiten organizar y procesar información mediante vectores, matrices, registros, métodos de ordenamiento y técnicas de búsqueda; finalmente, la depuración y manejo de errores incluye la identificación de fallas de sintaxis y lógica, así como el uso de mecanismos como try-catch para controlar excepciones durante la ejecución del programa.
     
+    figure.mb-5(data-aos="zoom-in")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/nTPQX7n-Uwo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video: Leyenda del video
+
 </template>
 
 <script>
