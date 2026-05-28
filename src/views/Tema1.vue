@@ -324,6 +324,11 @@
             li
               i.fas.fa-computer
               | La revisión de código permite detectar errores y mejorar soluciones.
+            
+            li
+              i.fas.fa-computer
+              | El aprendizaje de la programación también implica desarrollar habilidades de pensamiento lógico y resolución de problemas.
+    
     separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 1.2 Tipos de lenguajes de programación: compilados e interpretados

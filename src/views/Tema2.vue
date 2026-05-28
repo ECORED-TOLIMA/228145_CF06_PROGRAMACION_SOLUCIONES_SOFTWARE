@@ -433,7 +433,7 @@ export default {
   data: () => ({
     datosSlyder: [
       {
-        titulo: 'Definición general del software',
+        titulo: 'Definición general del <em>software</em>',
         texto:
           'Consiste en describir de forma clara el sistema de información o la solución a desarrollar, explicando la idea central, la funcionalidad principal y el alcance del proyecto. Incluye los propósitos, objetivos generales y el contexto en el que será utilizado, permitiendo comprender su utilidad y valor dentro del entorno para el cual fue concebido.',
         imagen: require('@/assets/curso/temas/tema2/img14.png'),
