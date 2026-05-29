@@ -187,7 +187,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/CFA4_228146_DU.pdf',
+        download: 'downloads/CFA6_228145_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -201,14 +201,6 @@ export default {
       },
     ],
   },
-  complementario: [
-    {
-      tema: '',
-      referencia: '',
-      tipo: 'Sitio web',
-      link: '',
-    },
-  ],
   glosario: [
     {
       termino: 'Algoritmo',
