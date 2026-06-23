@@ -111,10 +111,10 @@ export default {
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'boolean.', esCorrecta: true },
-            { id: 'b', texto: 'string.', esCorrecta: false },
-            { id: 'c', texto: 'number.', esCorrecta: false },
-            { id: 'd', texto: 'array.', esCorrecta: false },
+            { id: 'a', texto: 'boolean', esCorrecta: true },
+            { id: 'b', texto: 'string', esCorrecta: false },
+            { id: 'c', texto: 'number', esCorrecta: false },
+            { id: 'd', texto: 'array', esCorrecta: false },
           ],
           mensaje_correcto:
             '¡Muy bien! El tipo de dato boolean representa valores lógicos; es decir, solo puede tener dos posibles estados, para este caso falso o verdadero.',
@@ -195,10 +195,10 @@ export default {
           imagen: require('@/assets/actividad/imagen10.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'if.', esCorrecta: false },
-            { id: 'b', texto: 'switch.', esCorrecta: false },
-            { id: 'c', texto: 'for.', esCorrecta: true },
-            { id: 'd', texto: 'break.', esCorrecta: false },
+            { id: 'a', texto: 'if', esCorrecta: false },
+            { id: 'b', texto: 'switch', esCorrecta: false },
+            { id: 'c', texto: 'for', esCorrecta: true },
+            { id: 'd', texto: 'break', esCorrecta: false },
           ],
           mensaje_correcto:
             '¡Muy bien! Es una estructura de repetición que permite ejecutar un bloque de código varias veces de forma controlada.',
@@ -347,10 +347,10 @@ export default {
           imagen: require('@/assets/actividad/imagen9.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'if.', esCorrecta: false },
-            { id: 'b', texto: 'try...catch.', esCorrecta: true },
-            { id: 'c', texto: 'for.', esCorrecta: false },
-            { id: 'd', texto: 'Switch.', esCorrecta: false },
+            { id: 'a', texto: 'if', esCorrecta: false },
+            { id: 'b', texto: 'try...catch', esCorrecta: true },
+            { id: 'c', texto: 'for', esCorrecta: false },
+            { id: 'd', texto: 'Switch', esCorrecta: false },
           ],
           mensaje_correcto:
             '¡Exacto! Se utiliza para manejar errores en tiempo de ejecución, permitiendo que el programa no se detenga abruptamente.',

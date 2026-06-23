@@ -14,9 +14,10 @@
         .bloque-texto-g__texto.p-4
           p.mb-0 JavaScript ha sido un lenguaje de programación ampliamente utilizado durante más de tres décadas. Con él se desarrollan aplicaciones web, móviles, PWA y del lado del servidor, utilizando diversas bibliotecas populares (como ReactJS) y frameworks (como Next.js, Remix, entre otros).
     
+    p.mb-4 Al ser un lenguaje de tipado dinámico, JavaScript presenta el desafío de manejar correctamente la seguridad de tipos. TypeScript ayuda a controlar este aspecto, pero aun así es necesario gestionar los errores en tiempo de ejecución de manera eficiente dentro del código.
+    
     .row.justify-content-center.align-items-center
       .col-lg-10
-        p.mb-4.text-center Al ser un lenguaje de tipado dinámico, JavaScript presenta el desafío de manejar correctamente la seguridad de tipos. TypeScript ayuda a controlar este aspecto, pero aun así es necesario gestionar los errores en tiempo de ejecución de manera eficiente dentro del código.
         .tarjeta--fondo1.p-4.mb-4
           p.mb-0 Errores como TypeError, RangeError y ReferenceError probablemente sean familiares si se tiene experiencia desarrollando en JavaScript. Todos estos pueden generar datos inválidos, comportamientos incorrectos en la navegación, resultados inesperados o incluso provocar que la aplicación falle completamente, lo cual afecta negativamente la experiencia del usuario final.
     separador
@@ -159,9 +160,7 @@
           .tarjeta.tarjeta-bg4.p-3(x="7%" y="70%" numero="+")
             p Ejecuta el código independientemente de si ocurrió o no un error (es opcional).
             
-    .row.justify-content-center.align-items-center.mb-4
-      .col-lg-10
-        p.mb-0 A continuación, se presentan distintas formas y escenarios prácticos para generar, gestionar y clasificar errores, desde la creación de errores personalizados hasta el uso de estructuras modernas para el control de fallos y la identificación de los tipos de errores más comunes en JavaScript:          
+    p.mb-4 A continuación, se presentan distintas formas y escenarios prácticos para generar, gestionar y clasificar errores, desde la creación de errores personalizados hasta el uso de estructuras modernas para el control de fallos y la identificación de los tipos de errores más comunes en JavaScript:          
 
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
@@ -197,7 +196,7 @@
               p.mb-0 #[b ¿Cuándo usar el manejo de errores de JavaScript?]
         .row.justify-content-center.align-items-center.mb-4
           .col-lg-8
-            p.mb-0 El manejo de errores en JavaScript es fundamental en situaciones donde pueden presentarse problemas inesperados. Algunos casos comunes son:
+            p.mb-0.text-center El manejo de errores en JavaScript es fundamental en situaciones donde pueden presentarse problemas inesperados. Algunos casos comunes son:
     .row.justify-content-center.mb-4
       .col-md-6.col-lg-4.mb-4
         .tarjeta-foto-hover

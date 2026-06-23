@@ -396,16 +396,14 @@
           .lista-ol--cuadro__vineta
             span 3
           |  Métodos nativos de JavaScript como find(), filter(), includes() e indexOf(), que facilitan la búsqueda sin necesidad de implementar algoritmos desde cero.
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-4
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img21.png')})`}"
         )
         .bloque-texto-g__texto.p-4
           p.mb-0 Cuando se trabaja con datos numéricos, la búsqueda suele centrarse en encontrar valores específicos o rangos dentro de listas. En el caso de datos de texto, es común buscar coincidencias exactas o parciales dentro de cadenas. Por otro lado, cuando se manejan registros (objetos), la búsqueda puede implicar condiciones más complejas, como encontrar un objeto que cumpla ciertos criterios en una o varias de sus propiedades.
-    .row.justify-content-center.align-items-center.mb-4
-      .col-lg-10
-        p Además, en el contexto profesional, no solo es importante encontrar los datos, sino hacerlo de manera eficiente y escalable. A medida que el volumen de información crece, elegir el método de búsqueda adecuado se vuelve crucial para evitar problemas de rendimiento.
-        p.mb-0 En JavaScript moderno, el uso de funciones de orden superior y métodos de los arreglos ha simplificado considerablemente la implementación de algoritmos de búsqueda, permitiendo escribir código más limpio, legible y mantenible. No obstante, comprender los principios que los sustentan sigue siendo fundamental para tomar decisiones informadas y optimizar soluciones en escenarios de mayor complejidad.
+    p Además, en el contexto profesional, no solo es importante encontrar los datos, sino hacerlo de manera eficiente y escalable. A medida que el volumen de información crece, elegir el método de búsqueda adecuado se vuelve crucial para evitar problemas de rendimiento.
+    p.mb-4 En JavaScript moderno, el uso de funciones de orden superior y métodos de los arreglos ha simplificado considerablemente la implementación de algoritmos de búsqueda, permitiendo escribir código más limpio, legible y mantenible. No obstante, comprender los principios que los sustentan sigue siendo fundamental para tomar decisiones informadas y optimizar soluciones en escenarios de mayor complejidad.
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         .tarjeta-bg10.p-4.mb-4

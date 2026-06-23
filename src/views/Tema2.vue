@@ -268,10 +268,11 @@
     
     .cajon.tabs-a__tab.p-5.mb-4
       SlyderB(:datos="datosSlyder")    
-      
+    
+    p.mb-4 A continuación, se presenta una descripción integrada de los elementos clave que conforman la documentación de un proyecto de #[i software], abordando de manera progresiva su definición, desarrollo, implementación y validación:
+
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
-        p A continuación, se presenta una descripción integrada de los elementos clave que conforman la documentación de un proyecto de #[i software], abordando de manera progresiva su definición, desarrollo, implementación y validación:
         LineaTiempoE.color-acento-contenido
           .row(titulo="1")
             .col-lg-2.col-6.mb-4.mb-lg-0
@@ -346,7 +347,7 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
-        .tarjeta--container.row.mb-4
+        .tarjeta--container.row
           .col-md.tarjeta.tarjeta-bg2.p-5
             .row.justify-content-center.mb-4
               .col-4
@@ -367,8 +368,9 @@
             p.mb-0.ms-3    Total= precio * cantidad
             p.mb-0.ms-3    MOSTRAR total
             p.mb-0 FIN
-        p Puede ser un diseño orientado a objetos, relacional, etc., se debe tener una idea general del módulo de datos: entidades, atributos y las relaciones entre ellas. Par consiguiente, es imprescindible incluir diagramas o gráficos que ayuden a visualizar y entender el modelo.
-        p.mb-4 Un programa, aplicación o librería puede a su vez trabajar con varios tipos de datos (entrada, internos o de salida).
+    
+    p Puede ser un diseño orientado a objetos, relacional, etc., se debe tener una idea general del módulo de datos: entidades, atributos y las relaciones entre ellas. Par consiguiente, es imprescindible incluir diagramas o gráficos que ayuden a visualizar y entender el modelo.
+    p.mb-4 Un programa, aplicación o librería puede a su vez trabajar con varios tipos de datos (entrada, internos o de salida).
 
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')

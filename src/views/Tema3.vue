@@ -39,41 +39,46 @@
       .col-lg-3
         .tarjeta-bg1.p-4.h-100
           p.mb-0.text-center Mostrar contenido dinámico.
+    
+    p Todo eso requiere JavaScript para funcionar correctamente.
+    p.mb-4 Adicionalmente, JavaScript trasciende el ámbito de las páginas #[i web], ya que puede emplearse en aplicaciones como Yahoo! Widgets, Google Apps y en la automatización de tareas dentro de #[i software] de Adobe, entre otros usos. Asimismo, ha ganado relevancia en el desarrollo del lado del servidor mediante plataformas como Node.js, lo que amplía las oportunidades para el desarrollo #[i full-stack] utilizando un solo lenguaje.
+
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
-        p Todo eso requiere JavaScript para funcionar correctamente.
-        p.mb-4 Adicionalmente, JavaScript trasciende el ámbito de las páginas #[i web], ya que puede emplearse en aplicaciones como Yahoo! Widgets, Google Apps y en la automatización de tareas dentro de #[i software] de Adobe, entre otros usos. Asimismo, ha ganado relevancia en el desarrollo del lado del servidor mediante plataformas como Node.js, lo que amplía las oportunidades para el desarrollo #[i full-stack] utilizando un solo lenguaje.
-        .row.justify-content-center.align-items-center.mb-4
-            .col-lg-12
-              .bloque-texto-gg.color-primario(style="background-color: #C0F6F2 !important")
-                .bloque-texto-gg__texto1.p-4
-                  p.mb-3 Con JavaScript se puede crear:
-                  ul.lista-ul
-                    li
-                      i.fas.fa-computer(style="color: #FFC928 !important")
-                      | Páginas #[i web].
-                    li
-                      i.fas.fa-computer(style="color: #FFC928 !important")
-                      | Aplicaciones móviles.
-                    li
-                      i.fas.fa-computer(style="color: #FFC928 !important")
-                      | Sistemas completos (#[i frontend] + #[i backend]).
-                    li
-                      i.fas.fa-computer(style="color: #FFC928 !important")
-                      | Juegos.
-                    li
-                      i.fas.fa-computer(style="color: #FFC928 !important")
-                      | Programas de escritorio.
+        .row.justify-content-center.align-items-center
+          .col-lg-12
+            .bloque-texto-gg.color-primario(style="background-color: #C0F6F2 !important")
+              .bloque-texto-gg__texto1.p-4
+                p.mb-3 Con JavaScript se puede crear:
+                ul.lista-ul
+                  li
+                    i.fas.fa-computer(style="color: #FFC928 !important")
+                    | Páginas #[i web].
+                  li
+                    i.fas.fa-computer(style="color: #FFC928 !important")
+                    | Aplicaciones móviles.
+                  li
+                    i.fas.fa-computer(style="color: #FFC928 !important")
+                    | Sistemas completos (#[i frontend] + #[i backend]).
+                  li
+                    i.fas.fa-computer(style="color: #FFC928 !important")
+                    | Juegos.
+                  li
+                    i.fas.fa-computer(style="color: #FFC928 !important")
+                    | Programas de escritorio.
 
-                .bloque-texto-gg__img1(
-                  :style="{'background-image':`url(${require('@/assets/curso/temas/tema3/img2.svg')})`}"
-                )
-        p.mb-4 Este conocimiento permite abordar proyectos de #[i software] de forma estructurada y eficiente; además, su comprensión facilita la resolución de problemas complejos en entornos reales de desarrollo. En el contexto actual del desarrollo de #[i software], estas habilidades son altamente valoradas y demandadas en la industria tecnológica.
-        .titulo.mb-4(data-aos="fade-left")
-          img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
-          h5 Estructura de programación en JavaScript 
-        p.mb-4 Para entender esta estructura, se relaciona el siguiente ejemplo de un código de un programa en Java, seguido de su debida explicación:
+              .bloque-texto-gg__img1(
+                :style="{'background-image':`url(${require('@/assets/curso/temas/tema3/img2.svg')})`}"
+              )
+    p.mb-4 Este conocimiento permite abordar proyectos de #[i software] de forma estructurada y eficiente; además, su comprensión facilita la resolución de problemas complejos en entornos reales de desarrollo. En el contexto actual del desarrollo de #[i software], estas habilidades son altamente valoradas y demandadas en la industria tecnológica.
+    
+    .titulo.mb-4(data-aos="fade-left")
+      img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
+      h5 Estructura de programación en JavaScript 
+    p Para entender esta estructura, se relaciona el siguiente ejemplo de un código de un programa en Java, seguido de su debida explicación:
         
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-10
         .tarjeta.color-primario.p-0.mt-3.overflow-hidden.mb-4
           .px-3.py-2(style="background-color: #311a6a; display: flex; align-items: center;")
             .d-flex
@@ -285,7 +290,7 @@
     .tarjeta-bg2.p-4.mb-4
       .row.justify-content-center
         .col-lg-2.d-none.d-lg-block
-          img(src='@/assets/curso/temas/tema3/img16.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema3/img16.svg' alt='')
         .col-lg-10
           p.mb-4 Ejemplos de declaración de variables:
           p.mb-0 La declaración de variables en un programa Java se realiza utilizando el siguiente formato: tipo variables; 
@@ -409,7 +414,7 @@
               p.mb-0 Estos dos ejemplos dan el mismo resultado
           .col-lg-4.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/temas/tema3/img17.png' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema3/img17.png' alt='')
     .BG01.px-5.mb-4
       .row.justify-content-center.align-items-center
         .col-lg-10
@@ -428,10 +433,10 @@
           p.mb-0 operador % para Modulo (resto), ejemplo c=a%b 
           p.mb-4 operador ++ para Incrementar, ejemplo a++ ; significa a=a+1 operador -- para Decrementar, ejemplo a--; significa a=a-1
           .row.justify-content-center
-            .col-lg-5.mb-4.mb-lg-0
+            .col-lg-6.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema3/img18.png' alt='AvatarTop') 
-            .col-lg-7
+                img(src='@/assets/curso/temas/tema3/img18.png' alt='') 
+            .col-lg-6
               .row.mb-4.ms-0
                 .col-auto.bg-c1(data-aos="fade-left")
                   .row.align-items-center
@@ -535,13 +540,11 @@
 
     p.mb-4 Este apartado aborda los elementos básicos que permiten construir instrucciones significativas en JavaScript, organizar la lógica del programa y documentar el código, facilitando su comprensión, reutilización y mantenimiento dentro del proceso de desarrollo de #[i software].
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
-        .titulo.mb-4(data-aos="fade-left")
-          img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
-          h5 Expresiones
-        p.mb-4 En JavaScript, una expresión es cualquier fragmento de código que produce un valor. Las expresiones son la base de la programación, ya que permiten realizar cálculos, comparaciones, asignaciones y evaluaciones lógicas dentro de un programa.
-        p.mb-0 Los siguientes, son los tipos de expresiones:
+    .titulo.mb-4(data-aos="fade-left")
+      img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
+      h5 Expresiones
+    p En JavaScript, una expresión es cualquier fragmento de código que produce un valor. Las expresiones son la base de la programación, ya que permiten realizar cálculos, comparaciones, asignaciones y evaluaciones lógicas dentro de un programa.
+    p Los siguientes, son los tipos de expresiones:
     
     .tarjeta--BG02.px-md-5.p-lg-0.p-4.slyderF-wrapper.mb-4
       .slyderF-container
@@ -1014,7 +1017,7 @@
           .bloque-texto-gg__img(
             :style="{'background-image':`url(${require('@/assets/curso/temas/tema3/img38.svg')})`}"
           )  
-    p.mb-4.text-center Ejercicios propuestos
+    p.mb-4.text-center Ejercicios propuestos:
     .row.justify-content-center.mb-4
       .col-lg-4
         .tarjeta-bg2.p-4.h-100
@@ -1043,9 +1046,7 @@
               p.text-white.mb-1    return (n % 2 === 0) ? 'Par' : 'Impar';
               p.text-white.mb-1  }
 
-    .row.justify-content-center.align-items-center
-      .col-lg-10
-        p Las estructuras de salto son herramientas clave en JavaScript que permiten controlar el flujo de ejecución de manera eficiente, facilitando la construcción de programas más claros y optimizados.
+    p Las estructuras de salto son herramientas clave en JavaScript que permiten controlar el flujo de ejecución de manera eficiente, facilitando la construcción de programas más claros y optimizados.
 
 </template>
 
