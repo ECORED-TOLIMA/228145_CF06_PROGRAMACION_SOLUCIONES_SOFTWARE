@@ -179,10 +179,10 @@ export default {
           imagen: require('@/assets/actividad/imagen9.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'for.', esCorrecta: false },
-            { id: 'b', texto: 'if.', esCorrecta: true },
-            { id: 'c', texto: 'while.', esCorrecta: false },
-            { id: 'd', texto: 'return.', esCorrecta: false },
+            { id: 'a', texto: 'for', esCorrecta: false },
+            { id: 'b', texto: 'if', esCorrecta: true },
+            { id: 'c', texto: 'while', esCorrecta: false },
+            { id: 'd', texto: 'return', esCorrecta: false },
           ],
           mensaje_correcto:
             '¡Excelente! Es una instrucción que permite tomar decisiones dentro de un programa.',
